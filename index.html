@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site previsão de tempo</title>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <div class="big-box">
+        <input type="text" class="input-city" id="input-city" name="cidade" placeholder="Digite o nome da cidade">
+        <button onclick="clickOnButton()">
+            <div class="button-search">
+                <img class="img-search" src="imagens/busc.png" alt="ícone buscar">
+        </button>
+
+        <div class="middle-box">
+            <h2 class="city">Tempo em Santa Catarina</h2>
+            <p class="temp">21ºC</p>
+            <div class="little-box">
+                <img class="icon" src="https://openweathermap.org/img/wn/04n.png" alt="ícone de tempo">
+                <p class="previsao">paisagem</p>
+            </div>
+            <p class="umidade">Umidade: 85%</p>
+        </div>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
