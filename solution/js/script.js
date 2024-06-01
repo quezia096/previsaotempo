@@ -42,21 +42,21 @@ function atualizarPlanoDeFundo(previsao) {
     const previsaoNormalizada = previsao.trim().toLowerCase();
 
     if (previsaoNormalizada === "nublado") {
-        document.body.style.backgroundImage = "url('imagens/nublado.jpg')";
+        document.body.style.backgroundImage = "url('solution/imagens/nublado.jpg')";
     } else if (previsaoNormalizada === "céu limpo") {
-        document.body.style.backgroundImage = "url('imagens/sol.jpg')";
+        document.body.style.backgroundImage = "url('solution/imagens/sol.jpg')";
     } else if (previsaoNormalizada === "nuvens dispersas") {
-        document.body.style.backgroundImage = "url('imagens/nuvens.jpg')";
+        document.body.style.backgroundImage = "url('solution/imagens/nuvens.jpg')";
     } else if (previsaoNormalizada === "algumas nuvens") {
-        document.body.style.backgroundImage = "url('imagens/solnuvem.jpg')";
+        document.body.style.backgroundImage = "url('solution/imagens/solnuvem.jpg')";
          } else if (previsaoNormalizada === "névoa") {
-        document.body.style.backgroundImage = "url('imagens/nevoa.jpg')";
+        document.body.style.backgroundImage = "url('solution/imagens/nevoa.jpg')";
     } else if (previsaoNormalizada === "tempestade/chuvas intensas") {
-        document.body.style.backgroundImage = "url('imagens/tempestade.jpg')";
+        document.body.style.backgroundImage = "url('solution/imagens/tempestade.jpg')";
     } else if (previsaoNormalizada === "chuva leve") {
-        document.body.style.backgroundImage = "url('imagens/chuva.jpg')";
+        document.body.style.backgroundImage = "url('solution/imagens/chuva.jpg')";
     } else {
-        document.body.style.backgroundImage = "url('imagens/paisagem.jpg')"; // Caso queira remover a imagem de fundo para outras condições
+        document.body.style.backgroundImage = "url('solution/imagens/paisagem.jpg')"; // Caso queira remover a imagem de fundo para outras condições
     }
 }
 
